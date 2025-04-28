@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="UTF-8" />
+  <title>大学生校园跑</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+    header {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      font-size: 1.5em;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .sidebar {
+      flex: 1 1 200px;
+      margin-right: 20px;
+    }
+    .content {
+      flex: 3 1 auto;
+    }
+    .run-button {
+      background-color: #ff9800;
+      border: none;
+      padding: 12px 20px;
+      margin: 10px 0;
+      cursor: pointer;
+      color: #fff;
+      font-size: 1em;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #eee;
+      margin-top: 20px;
+    }
+    .profile, .history {
+      margin-bottom: 20px;
+      background-color: #fafafa;
+      padding: 10px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <header>大学生校园跑</header>
+  <div class="container">
+    <div class="sidebar">
+      <h3>导航栏</h3>
+      <ul>
+        <li>我的主页</li>
+        <li>开始跑步</li>
+        <li>跑步记录</li>
+        <li>设置</li>
+      </ul>
+    </div>
+    <div class="content">
+      <section class="profile">
+        <h2>个人信息</h2>
+        <p>姓名：张三</p>
+        <p>学校：某某大学</p>
+      </section>
+      <section class="history">
+        <h2>累计里程</h2>
+        <p>本周频次：3次</p>
+        <p>总距离：20公里</p>
+      </section>
+      <button class="run-button">开始跑步</button>
+      <p>点击“开始跑步”即可记录您的实时运动路径和跑步数据。</p>
+    </div>
+  </div>
+  <footer>© 2025 校园跑示例</footer>
+</body>
+</html>
